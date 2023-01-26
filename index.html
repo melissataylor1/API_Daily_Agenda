@@ -12,7 +12,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+     <!--Day.js-->
+     <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+     <script>
+       dayjs().format()
+     </script>
     <!--fonts-->
     <link
       rel="stylesheet"
@@ -34,7 +38,7 @@
     <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="currentDay"></p>
     </header>
     
     <div class="container-lg px-5">
@@ -140,13 +144,16 @@
 
     <!--scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
     integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
     crossorigin="anonymous"></script>
-    <script src="path/to/dayjs/dayjs.min.js"></script>
-    <script>
-      dayjs().format()
-    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.5/dayjs.min.js" 
+    integrity="sha512-Ot7ArUEhJDU0cwoBNNnWe487kjL5wAOsIYig8llY/l0P2TUFwgsAHVmrZMHsT8NGo+HwkjTJsNErS6QqIkBxDw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ 
     <script src="./assets/script.js"></script>
   </body>
 </html>
