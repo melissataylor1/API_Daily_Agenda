@@ -2,8 +2,11 @@
 $(function () {
     let timeNow = dayjs().format('dddd, MMM D YYYY HH:m a');
     $("#currentDay").text(timeNow);
+  });
 
+ 
 //Setting up values for time blocks in local stores
+$('#7 .description').val(localStorage.getItem('7'));
 $('#8 .description').val(localStorage.getItem('8'));
 $('#9 .description').val(localStorage.getItem('9'));
 $('#10 .description').val(localStorage.getItem('10'));
@@ -14,7 +17,3 @@ $('#14 .description').val(localStorage.getItem('14'));
 $('#15 .description').val(localStorage.getItem('15'));
 $('#16 .description').val(localStorage.getItem('16'));
 $('#17 .description').val(localStorage.getItem('17'));
-
-  });
-
-
