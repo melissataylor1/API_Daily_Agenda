@@ -57,3 +57,8 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+footer {
+  text-align: center;
+  padding: 2% 0;
+}
