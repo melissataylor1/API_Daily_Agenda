@@ -62,3 +62,10 @@ footer {
   text-align: center;
   padding: 2% 0;
 }
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+}

@@ -1,6 +1,6 @@
 //setting day/time display at top of schedule
 $(function () {
-  let timeNow = dayjs().format('dddd, MMM D YYYY HH:m a');
+  let timeNow = dayjs().format('dddd, MMM D YYYY hh:mm a');
   $("#currentDay").text(timeNow);
 });
 
