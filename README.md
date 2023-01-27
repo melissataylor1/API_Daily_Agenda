@@ -1,6 +1,5 @@
-# API_Daily_Agenda
+# API_Daily_Agenda - Challenge 5
 Welcome to the API Daily Agenda for the Module 4 Challenge!
-# Challenge 03 - Password-Provider-5000
 January 26th, 2023
 
 # Deployment Link
